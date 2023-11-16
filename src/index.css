@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    display: none !important;
+}
+
+:root {
+    --darktextcolor: #301551;
+
+
+    --lighttextColor: #492b7c;
+}
+
+.lgihtTheme {
+    --background-color: #fff;
+    --textColor: #492b7c;
+
+    --paraColor: #604391;
+    --headingColor: #301551;
+    --position: fixed;
+    --filterColor: "invert(5%) sepia(89%) saturate(3727%) hue-rotate(264deg) brightness(103%) contrast(93%)",
+
+}
+
+.darkTheme {
+    --background-color: #0b172a;
+    --textColor: #c19ffc;
+    --textColor: #ffffff;
+    --lighttextColor: #ffffff;
+    --background-image: url('./assets/bgLogo.png');
+    --backdrop-filter: blur(30px);
+    background-size: contain;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    --paraColor: #cfcfcf;
+    --headingColor: #fff;
+    --position: fixed;
+    --filterColor: "invert(5%) sepia(89%) saturate(3727%) hue-rotate(264deg) brightness(103%) contrast(93%)",
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    position: var(--position)
+}
+
+.header {
+    position: var(--position)
+}
+
+label {
+    text-transform: capitalize;
+}
+
+label,
+button,
+h1,
+h3,
+p,
+a {
+    color: var(--textColor);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: var(--background-image);
+    backdrop-filter: var(--backdrop-filter);
+    background-color: var(--background-color);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+p {
+    color: var(--paraColor);
+}
+
+.homeSocialIcons {
+    background-color: var(--background-color);
+    padding: 18px 15px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 4px -5px 17px 5px var(--paraColor);
+    box-shadow: 2px 2px 8px -3px var(--paraColor),
+        inset 8px 8px 15px -8px var(--paraColor)
+}
+
+.bannerimgIner {
+    position: relative;
+}
+
+.bannerimgIner::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 83%;
+    background-color: var(--background-color);
+    z-index: -1;
+    box-shadow: 2px 2px 8px -3px var(--paraColor), inset 8px 8px 15px -8px var(--paraColor);
+    border-radius: 3px;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -40%);
+    opacity: .5;
+}
+
+/* feauterCard */
+.contactshadow,
+.resumTabs,
+.feauterCard,
+.portfolioCard {
+    box-shadow: 2px 2px 8px -3px var(--paraColor), inset 8px 8px 15px -8px var(--paraColor);
+    border-radius: 3px;
+}
+
+.activetab,
+.resumBtn:hover {
+    box-shadow: 2px 2px 12px 0px var(--paraColor),
+        inset 8px 8px 20px -3px var(--paraColor);
+    border-radius: 3px;
+}
+
+.feauterCard:hover h1,
+.feauterCard:hover p {
+    color: #fff;
+}
+
+.feauterCard .featureIcon {
+    filter: var(--filterColor);
+}
+
+
+/* portDetails */
+
+.portDetails .portDetailsinner {
+    background-color: rgb(0, 0, 0)
+}
+
+/* contact */
+textarea,
+input {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid transparent;
+    transition: all .2s ease-in-out;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus,
+input:focus {
+    border: 2px solid red;
+}
+
+.contactBtn {
+    box-shadow: 2px 2px 8px -3px var(--paraColor), inset 8px 8px 15px -8px var(--paraColor);
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer !important;
+    transition: all .3s ease-in-out;
+}
+
+.contactBtn:hover {
+    background-color: red;
+    color: #fff;
+}
+
+/* media query */
+
+@media only screen and (max-width: 767px) {
+    .homeSocialIcons {
+        padding: 12px 10px;
+    }
+
+    .homeSocialIcons {
+        box-shadow: 2px 2px 8px -3px var(--paraColor), inset 4px 4px 10px -6px var(--paraColor);
+    }
+}
