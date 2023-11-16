@@ -14,7 +14,7 @@ import {
     blog1,
     blog2,
     blog3,
-} from "../../assets/images"
+} from "../../assets/Images"
 
 export const DesktopBarLeft = [
     {
