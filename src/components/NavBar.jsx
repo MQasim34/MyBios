@@ -222,7 +222,7 @@ const NavBar = () => {
               {mobleNavBar.map((q) => (
                 <li key={q.id}>
                   <a
-                    href=""
+                    href={`#${q.id}`}
                     className="block text-[--lighttextColor]  transition-all capitalize  font-[600] lg:text-sm text-xs"
                     onClick={() => {}}
                   >
