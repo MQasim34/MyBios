@@ -15,8 +15,8 @@ const Pricing = () => {
       id="pricing"
       className="lg:container m-auto lg:px-0 px-3 md:pt-24 pt-16 border-b md:pb-28 pb-14 "
     >
-      <div className="flex justify-between ">
-        <div className="features flex flex-col gap-4">
+      <div className="flex md:felx-row flex-col md:gap-2 gap-4 justify-between ">
+        <div className="features flex flex-col gap-4 md:text-left text-center">
           <h3 className="text-[--headingColor] font-[500] uppercase text-lg">
             pricing
           </h3>
@@ -26,7 +26,7 @@ const Pricing = () => {
         </div>
 
         {/*  */}
-        <div className="portfolioCard max-w-[51.3%] w-full">
+        <div className="portfolioCard md:w-[51.3%] w-[94.3%] m-auto">
           <div className="flex resumTabs">
             {pricing.map((tab) => (
               <div
