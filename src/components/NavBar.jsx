@@ -12,6 +12,7 @@ import {
   DesktopBarRight,
   mobleNavBar,
 } from "../siteData/features";
+import Overlay from "./Overlay";
 
 const NavBar = () => {
   // resize navBar
@@ -88,6 +89,11 @@ const NavBar = () => {
   const NavItems = (links) => {
     isnavBarActive(links);
   };
+
+  // scroll none when menu is open
+  useEffect(() => {
+    document.body.classList.toggle("overflowActive", MenuBar);
+  }, [MenuBar]);
 
   return (
     <>
@@ -226,7 +232,7 @@ const NavBar = () => {
         </nav>
         {isMobile && MenuBar ? (
           <div
-            className="fixed top-0 left-0 md:w-96 w-[80%] h-screen p-3 z-10 "
+            className="fixed top-0 left-0 md:w-96 w-[80%]  h-screen p-3 z-10"
             style={{
               backgroundColor: theme === "lgihtTheme" ? "#301551" : "#fff",
             }}
@@ -284,6 +290,11 @@ const NavBar = () => {
                 </li>
               ))}
             </ul>
+          </div>
+        ) : null}
+        {isMobile && MenuBar ? (
+          <div onClick={() => menubarhandle()}>
+            <Overlay />
           </div>
         ) : null}
       </div>

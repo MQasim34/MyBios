@@ -19,7 +19,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="pt-4 text-center">
-        <p>© 2022. All rights reserved by My-Themes.</p>
+        <p>© 2023. All rights reserved by MyBios</p>
       </div>
     </div>
   );

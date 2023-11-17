@@ -92,6 +92,8 @@ export const mobleNavBar = [
 
 ]
 
+// features
+
 export const features = [
     {
         Img: business,
@@ -196,4 +198,69 @@ export const blog = [
         time: "2 min read",
         title: 'T-Shirt is the part of the design'
     }
-] 
+]
+
+
+// pricing 
+export const pricing = [
+    {
+        id: 1,
+        tabBtn: 'Static',
+        title: "Make Your Single Page",
+        subTitle: "Elementor",
+        price: 30.00,
+        detail: `All the Lorem Ipsum generators on the Internet tend to \n repeat predefined chunks as necessary`,
+        li1: '1 Page with Elementor',
+        li2: '1 Page with Elementor',
+        li3: '1 Page with Elementor',
+        li4: '1 Page with Elementor',
+        li5: '1 Page with Elementor',
+        li6: '1 Page with Elementor',
+        li7: '1 Page with Elementor',
+        li8: '1 Page with Elementor',
+        li9: '1 Page with Elementor',
+        li10: '1 Page with Elementor',
+        li11: '1 Page with Elementor',
+        li12: '1 Page with Elementor',
+    },
+    {
+        id: 2,
+        tabBtn: 'Standard',
+        title: "Design Make this Page",
+        subTitle: "Elementor",
+        price: 30.00,
+        detail: 'All the Lorem Ipsum generators on the Internet tend to \n repeat predefined chunks as necessary',
+        li1: '2 Page with Elementor',
+        li2: '2 Page with Elementor',
+        li3: '2 Page with Elementor',
+        li4: '2 Page with Elementor',
+        li5: '2 Page with Elementor',
+        li6: '2 Page with Elementor',
+        li7: '2 Page with Elementor',
+        li8: '2 Page with Elementor',
+        li9: '2 Page with Elementor',
+        li10: '2 Page with Elementor',
+        li11: '2 Page with Elementor',
+        li12: '2 Page with Elementor',
+    },
+    {
+        id: 3,
+        tabBtn: 'Premium',
+        title: "Customize Your Single Page",
+        subTitle: "Elementor",
+        price: 30.00,
+        detail: 'All the Lorem Ipsum generators on the Internet tend to \n repeat predefined chunks as necessary',
+        li1: '3 Page with Elementor',
+        li2: '3 Page with Elementor',
+        li3: '3 Page with Elementor',
+        li4: '3 Page with Elementor',
+        li5: '3 Page with Elementor',
+        li6: '3 Page with Elementor',
+        li7: '3 Page with Elementor',
+        li8: '3 Page with Elementor',
+        li9: '3 Page with Elementor',
+        li10: '3 Page with Elementor',
+        li11: '3 Page with Elementor',
+        li12: '3 Page with Elementor',
+    },
+]
