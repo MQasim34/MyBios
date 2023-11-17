@@ -56,6 +56,12 @@ html {
     position: var(--position)
 }
 
+.menuClose {
+    box-shadow: 4px 4px 8px -3px var(--paraColor), inset 8px 8px 15px 0px var(--paraColor);
+    border-radius: 3px;
+    padding: 5px;
+}
+
 label {
     text-transform: capitalize;
 }
@@ -67,6 +73,10 @@ h3,
 p,
 a {
     color: var(--textColor);
+}
+
+.navActive {
+    background-color: #bbbbbb5b;
 }
 
 body {

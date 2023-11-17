@@ -6,6 +6,7 @@ import { FaBars } from "react-icons/fa";
 import { Logo } from "../assets/Images";
 import Moon from "../assets/moon.png";
 import sun from "../assets/sun.png";
+import { FaTimes } from "react-icons/fa";
 import {
   DesktopBarLeft,
   DesktopBarRight,
@@ -83,7 +84,10 @@ const NavBar = () => {
 
   // setactive NavBar
 
-  const [navBarActive, setnavBarActive] = useState("");
+  const [navBarActive, isnavBarActive] = useState("home");
+  const NavItems = (links) => {
+    isnavBarActive(links);
+  };
 
   return (
     <>
@@ -99,13 +103,17 @@ const NavBar = () => {
                   <li
                     // style={}
                     key={q.id}
-                    onClick={() => {
-                      setnavBarActive(q.id);
-                    }}
+                    // onClick={() => {
+                    //   setnavBarActive(q.id);
+                    // }}
                   >
                     <a
                       href={`#${q.id}`}
-                      className="block text-[--lighttextColor]  transition-all capitalize  font-[600] lg:text-sm text-xs"
+                      className="block text-[--lighttextColor] cursor-pointer transition-all capitalize  font-[600] lg:text-sm text-xs"
+                      onClick={() => {
+                        NavItems(`${q.id}`);
+                        isnavBarActive(q.id);
+                      }}
                     >
                       {q.title}
                     </a>
@@ -217,14 +225,59 @@ const NavBar = () => {
           {/* mobile-menu */}
         </nav>
         {isMobile && MenuBar ? (
-          <div className="fixed top-0 left-0 md:w-96 w-80 h-[100vh] z-10 bg-black">
-            <ul className=" flex items-center md:gap-8 gap-3 m-0 p-0">
+          <div
+            className="fixed top-0 left-0 md:w-96 w-[80%] h-screen p-3 z-10 "
+            style={{
+              backgroundColor: theme === "lgihtTheme" ? "#301551" : "#fff",
+            }}
+          >
+            <div className="flex justify-between items-center">
+              <a href="#home" className=" flex justify-center items-center">
+                <span className=" md:w-16 w-12 md:h-16 h-12 rounded-full border-2 overflow-hidden bg-black">
+                  {" "}
+                  <img
+                    src={Logo}
+                    alt="My bio"
+                    className="flex md:w-16 w-12 md:h-16 h-12 object-cover pt-2 scale-[1.2]"
+                  />{" "}
+                </span>
+                <span
+                  className="uppercase text-lg font-[700]"
+                  style={{
+                    color: theme === "lgihtTheme" ? "#fff" : "#301551",
+                  }}
+                >
+                  mybio
+                </span>
+              </a>
+              <FaTimes
+                className="menuClose hover:text-white ease-in-out duration-300 cursor-pointer "
+                fontSize={23}
+                style={{
+                  color: theme === "lgihtTheme" ? "#fff" : "#301551",
+                  backgroundColor: theme === "lgihtTheme" ? "#fff" : "#301551",
+                }}
+                onClick={() => {
+                  menubarhandle();
+                }}
+              />
+            </div>
+            <ul className=" flex flex-col w-full items-center gap-[1px] m-0 p-0 pt-4">
               {mobleNavBar.map((q) => (
-                <li key={q.id}>
+                <li key={q.id} className="w-full">
                   <a
                     href={`#${q.id}`}
-                    className="block text-[--lighttextColor]  transition-all capitalize  font-[600] lg:text-sm text-xs"
-                    onClick={() => {}}
+                    className={`block transition-all cursor-pointer capitalize rounded hover:bg-[#bbbbbb5b] font-[600] lg:text-sm text-xs p-3 ${
+                      navBarActive === `${q.id}` ? "navActive" : ""
+                    }`}
+                    style={{
+                      color: theme === "lgihtTheme" ? "#fff" : "#301551",
+                    }}
+                    onClick={() => {
+                      NavItems(`${q.id}`);
+                      isnavBarActive(q.id);
+                      menubarhandle();
+                    }}
                   >
                     {q.title}
                   </a>
