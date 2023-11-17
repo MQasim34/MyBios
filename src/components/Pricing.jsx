@@ -27,7 +27,7 @@ const Pricing = () => {
 
         {/*  */}
         <div className="portfolioCard md:w-[51.3%] w-[94.3%] m-auto">
-          <div className="flex resumTabs">
+          <div className="flex flex-wrap resumTabs">
             {pricing.map((tab) => (
               <div
                 key={tab.id}
