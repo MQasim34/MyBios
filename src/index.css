@@ -26,6 +26,26 @@
 
 }
 
+.pricingCard ul {
+    gap: 12px;
+}
+
+.pricingCard li {
+    list-style-type: circle;
+    width: 50%;
+}
+
+@media only screen and (max-width: 428px) {
+    .pricingCard ul {
+        flex-direction: column;
+    }
+
+    .pricingCard li {
+        width: 100%;
+    }
+
+}
+
 .darkTheme {
     --background-color: #0b172a;
     --textColor: #c19ffc;
