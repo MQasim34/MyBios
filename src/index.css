@@ -99,6 +99,7 @@ label {
     text-transform: capitalize;
 }
 
+span,
 label,
 button,
 h1,
@@ -224,6 +225,56 @@ input:focus {
     color: #fff;
 }
 
+
+/* testimonila */
+.testimonila {
+    box-shadow: 2px 2px 8px -3px var(--paraColor), inset 8px 8px 15px -8px var(--paraColor);
+}
+
+.slick-list {
+    padding-bottom: 10px;
+}
+
+.custom-prev-arrow,
+.custom-next-arrow {
+    position: absolute;
+    top: 15%;
+    transform: translateY(-50%);
+    color: #492b7c;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    cursor: pointer;
+    outline: none;
+    z-index: 10;
+    box-shadow: 2px 2px 8px -3px var(--paraColor), inset 8px 8px 15px -8px var(--paraColor);
+    border-radius: 4px;
+}
+
+.custom-next-arrow {
+    right: 0;
+}
+
+.custom-prev-arrow:hover .innerIconn,
+.custom-next-arrow:hover .innerIconn {
+
+    color: #fff;
+}
+
+.custom-prev-arrow:hover,
+.custom-next-arrow:hover {
+    background-color: red;
+}
+
+.custom-prev-arrow {
+    right: 6%;
+}
+
+
+
+
+
+
 /* media query */
 
 @media only screen and (max-width: 767px) {
@@ -233,5 +284,9 @@ input:focus {
 
     .homeSocialIcons {
         box-shadow: 2px 2px 8px -3px var(--paraColor), inset 4px 4px 10px -6px var(--paraColor);
+    }
+
+    .custom-arrow {
+        display: none !important;
     }
 }

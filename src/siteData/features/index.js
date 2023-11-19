@@ -14,6 +14,13 @@ import {
     blog1,
     blog2,
     blog3,
+    testimonial1,
+    testimonial2,
+    testimonial3,
+    testimonial4,
+    testimonial5,
+    quote,
+    rating
 } from "../../assets/Images"
 
 export const DesktopBarLeft = [
@@ -37,8 +44,8 @@ export const DesktopBarLeft = [
 
 export const DesktopBarRight = [
     {
-        id: 'cleints',
-        title: 'cleints'
+        id: 'testimonial',
+        title: 'testimonial'
     },
     {
         id: 'pricing',
@@ -74,8 +81,8 @@ export const mobleNavBar = [
         title: 'resume'
     },
     {
-        id: 'cleints',
-        title: 'cleints'
+        id: 'testimonial',
+        title: 'testimonial'
     },
     {
         id: 'pricing',
@@ -262,5 +269,65 @@ export const pricing = [
         li10: '3 Page with Elementor',
         li11: '3 Page with Elementor',
         li12: '3 Page with Elementor',
+    },
+]
+
+
+// testimonial
+export const testimonial = [
+    {
+        image: testimonial1,
+        subTitle: 'Rainbow-Themes',
+        title: 'Nevine Acotanza',
+        position: 'Chief Operating Officer',
+        quote: quote,
+        title2: "Web App Development",
+        workdate: 'Upwork - Mar 4, 2016 - Aug 30, 2021',
+        rating: rating,
+        details: 'Important fact to nec sem ut imperdiet.Ut tincidunt est ac dolor aliquam sodales.Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.Ut tincidunt est ac dolor aliquam sodales phasellus smauris.'
+    },
+    {
+        image: testimonial2,
+        subTitle: 'Rainbow-Themes',
+        title: 'Nevine Acotanza',
+        position: 'Chief Operating Officer',
+        quote: quote,
+        title2: "Web App Development",
+        workdate: 'Upwork - Mar 4, 2016 - Aug 30, 2021',
+        rating: rating,
+        details: 'Important fact to nec sem ut imperdiet.Ut tincidunt est ac dolor aliquam sodales.Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.Ut tincidunt est ac dolor aliquam sodales phasellus smauris.'
+    },
+    {
+        image: testimonial3,
+        subTitle: 'Rainbow-Themes',
+        title: 'Nevine Acotanza',
+        position: 'Chief Operating Officer',
+        quote: quote,
+        title2: "Web App Development",
+        workdate: 'Upwork - Mar 4, 2016 - Aug 30, 2021',
+        rating: rating,
+        details: 'Important fact to nec sem ut imperdiet.Ut tincidunt est ac dolor aliquam sodales.Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.Ut tincidunt est ac dolor aliquam sodales phasellus smauris.'
+    },
+    {
+        image: testimonial4,
+        subTitle: 'Rainbow-Themes',
+        title: 'Nevine Acotanza',
+        position: 'Chief Operating Officer',
+        quote: quote,
+        title2: "Web App Development",
+        workdate: 'Upwork - Mar 4, 2016 - Aug 30, 2021',
+        rating: rating,
+        details: 'Important fact to nec sem ut imperdiet.Ut tincidunt est ac dolor aliquam sodales.Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.Ut tincidunt est ac dolor aliquam sodales phasellus smauris.'
+    },
+    {
+        image: testimonial5,
+        subTitle: 'Rainbow-Themes',
+        title: 'Nevine Acotanza',
+        position: 'Chief Operating Officer',
+        quote: quote,
+        title2: "Web App Development",
+        workdate: 'Upwork - Mar 4, 2016 - Aug 30, 2021',
+        rating: rating,
+        details: 'Important fact to nec sem ut imperdiet.Ut tincidunt est ac dolor aliquam sodales.Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.Ut tincidunt est ac dolor aliquam sodales phasellus smauris.'
     },
 ]

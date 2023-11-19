@@ -15,7 +15,7 @@ const Pricing = () => {
       id="pricing"
       className="lg:container m-auto lg:px-0 px-3 md:pt-24 pt-20 border-b md:pb-28 pb-14 "
     >
-      <div className=" relative flex md:flex-row flex-col md:gap-2 gap-4 justify-between ">
+      <div className=" relative flex md:flex-row flex-col md:gap-2 gap-6 justify-between ">
         <div className="features md:sticky  top-36 flex flex-col md:gap-4 ga-2 h-[100%] text-center md:w-[44%] w-full">
           <h3 className="text-[--headingColor] font-[500] uppercase text-lg">
             pricing

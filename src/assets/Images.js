@@ -15,6 +15,13 @@ import blog2 from './blog2.jpg'
 import blog3 from './blog3.jpg'
 import Logo from './logoImg.png'
 import BannerImg from './banner-01.png'
+import testimonial1 from './testimonial1.png'
+import testimonial2 from './testimonial2.png'
+import testimonial3 from './testimonial3.png'
+import testimonial4 from './testimonial4.png'
+import testimonial5 from './testimonial5.png'
+import quote from './quote.png'
+import rating from './rating.png'
 
 
 export {
@@ -34,5 +41,12 @@ export {
     blog2,
     blog3,
     Logo,
-    BannerImg
+    BannerImg,
+    testimonial1,
+    testimonial2,
+    testimonial3,
+    testimonial4,
+    testimonial5,
+    quote,
+    rating
 }

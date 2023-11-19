@@ -7,9 +7,9 @@ import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
-import Clients from "./components/Clients";
 import Pricing from "./components/Pricing";
 import Footer from "./components/Footer";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       <Features />
       <Portfolio />
       <Resume />
-      <Clients />
+      <Testimonial />
       <Pricing />
       <Blog />
       <Contact />

@@ -15,7 +15,7 @@ const Portfolio = () => {
   return (
     <div
       id="portfolio"
-      className="lg:container m-auto lg:px-0 px-3 md:pt-24 pt-16 border-b md:pb-28 pb-14"
+      className="lg:container m-auto lg:px-0 px-3 md:pt-24 pt-[75px] border-b md:pb-28 pb-14"
     >
       <div className="features text-center flex flex-col gap-4">
         <h3 className="text-[--headingColor] font-[500] text-sm">

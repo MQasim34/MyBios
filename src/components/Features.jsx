@@ -4,9 +4,9 @@ const Features = () => {
   return (
     <div
       id="features"
-      className=" lg:container m-auto lg:px-0 px-3 md:pt-24 pt-16 border-b md:pb-28 pb-14 "
+      className=" lg:container m-auto lg:px-0 px-3 md:pt-24 pt-[70px] border-b md:pb-28 pb-14 "
     >
-      <div className="features flex flex-col gap-4">
+      <div className="features text-center flex flex-col md:gap-4 gap-3">
         <h3 className="text-[--headingColor] font-[500] text-lg">Features</h3>
         <h1 className="color-[--headingColor] flex flex-col md:gap-3 gap-0 lg:text-5xl leading-tight sm:text-3xl text-lg uppercase font-[700] ">
           what i do
