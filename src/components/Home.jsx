@@ -26,7 +26,7 @@ const Home = () => {
                   <span style={{ color: "red" }}>a</span> {""}
                   <span>
                     <Typewriter
-                      words={["Fornt-End Developer"]}
+                      words={["Front-End Developer"]}
                       loop={Infinity}
                       cursor
                       cursorStyle="|"

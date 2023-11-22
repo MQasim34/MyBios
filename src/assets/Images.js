@@ -22,6 +22,7 @@ import testimonial4 from './testimonial4.png'
 import testimonial5 from './testimonial5.png'
 import quote from './quote.png'
 import rating from './rating.png'
+import mockup1 from './mockup1.png'
 
 
 export {
@@ -48,5 +49,6 @@ export {
     testimonial4,
     testimonial5,
     quote,
-    rating
+    rating,
+    mockup1
 }

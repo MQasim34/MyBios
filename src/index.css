@@ -22,7 +22,8 @@
     --paraColor: #604391;
     --headingColor: #301551;
     --position: fixed;
-    --filterColor: "invert(5%) sepia(89%) saturate(3727%) hue-rotate(264deg) brightness(103%) contrast(93%)",
+    --filterColor: "invert(5%) sepia(89%) saturate(3727%) hue-rotate(264deg) brightness(103%) contrast(93%)";
+    --detailsColor: #fff;
 
 }
 
@@ -59,7 +60,8 @@
     --paraColor: #cfcfcf;
     --headingColor: #fff;
     --position: fixed;
-    --filterColor: "invert(5%) sepia(89%) saturate(3727%) hue-rotate(264deg) brightness(103%) contrast(93%)",
+    --filterColor: "invert(5%) sepia(89%) saturate(3727%) hue-rotate(264deg) brightness(103%) contrast(93%)";
+    --detailsColor: var(--darktextcolor);
 
 
 }
@@ -187,7 +189,7 @@ p {
 /* portDetails */
 
 .portDetails .portDetailsinner {
-    background-color: rgb(0, 0, 0)
+    background-color: var(--detailsColor);
 }
 
 /* contact */
@@ -270,6 +272,11 @@ input:focus {
     right: 6%;
 }
 
+.pdbtn {
+    box-shadow: 2px 2px 8px -3px var(--paraColor), inset 8px 8px 15px -8px var(--paraColor);
+    border-radius: 4px;
+    padding: 5px 15px;
+}
 
 
 

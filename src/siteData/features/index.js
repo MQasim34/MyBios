@@ -5,7 +5,7 @@ import {
     mobile,
     ceo,
     personal,
-    portfolio1,
+    // portfolio1,
     portfolio2,
     portfolio3,
     portfolio4,
@@ -20,7 +20,8 @@ import {
     testimonial4,
     testimonial5,
     quote,
-    rating
+    rating,
+    mockup1
 } from "../../assets/Images"
 
 export const DesktopBarLeft = [
@@ -143,21 +144,24 @@ export const portfolio = [
         department: 'development',
         links: '600',
         title: 'The services provide for design',
-        img: portfolio1
+        img: mockup1,
+        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Consectetur adipisicing elit.Cupiditate distinctio assumenda.dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!'
     },
     {
         id: 2,
         department: 'application',
         links: '630',
         title: 'moblie app landing design and & maintain',
-        img: portfolio2
+        img: portfolio2,
+        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Consectetur adipisicing elit.Cupiditate distinctio assumenda.dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!'
     },
     {
         id: 3,
         department: 'PHOTOSHOP',
         links: '730',
         title: 'Logo design creativity & Application',
-        img: portfolio3
+        img: portfolio3,
+        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Consectetur adipisicing elit.Cupiditate distinctio assumenda.dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!'
 
     },
     {
@@ -165,21 +169,24 @@ export const portfolio = [
         department: 'figma',
         links: '600',
         title: 'Mobile app landing design & Services',
-        img: portfolio4
+        img: portfolio4,
+        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Consectetur adipisicing elit.Cupiditate distinctio assumenda.dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!'
     },
     {
         id: 5,
         department: 'web design',
         links: '600',
         title: 'Design for tecnology & services',
-        img: portfolio5
+        img: portfolio5,
+        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Consectetur adipisicing elit.Cupiditate distinctio assumenda.dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!'
     },
     {
         id: 6,
         department: 'web design',
         links: '600',
         title: 'App for tecnology & services',
-        img: portfolio6
+        img: portfolio6,
+        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Consectetur adipisicing elit.Cupiditate distinctio assumenda.dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!'
     },
 ]
 
