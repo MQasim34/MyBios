@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
   return (
-    <div className="bg-[#ffffff62] relative">
+    <div className=" relative">
       <div
         id="home"
         className=" relative MainHome lg:container m-auto w-full md:pt-40 pt-24 px-3"
