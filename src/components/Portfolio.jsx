@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { portfolio } from "../siteData/features";
 import PortDetails from "./detailsPage/PortDetails";
-// import index from "../utils/index";
 
 const Portfolio = () => {
   const [detailsCard, setDetailsCard] = useState(false);

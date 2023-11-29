@@ -145,7 +145,8 @@ export const portfolio = [
         links: '600',
         title: 'The services provide for design',
         img: mockup1,
-        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Consectetur adipisicing elit.Cupiditate distinctio assumenda.dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!'
+        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Consectetur adipisicing elit.Cupiditate distinctio assumenda.dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!',
+        link: 'https://mqasim34.github.io/MyBios/',
     },
     {
         id: 2,
@@ -153,7 +154,8 @@ export const portfolio = [
         links: '630',
         title: 'moblie app landing design and & maintain',
         img: portfolio2,
-        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Consectetur adipisicing elit.Cupiditate distinctio assumenda.dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!'
+        details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Consectetur adipisicing elit.Cupiditate distinctio assumenda.dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!',
+        link: 'https://mqasim34.github.io/flexi-blocks/',
     },
     {
         id: 3,

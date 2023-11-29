@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Pricing from "./components/Pricing";
 import Footer from "./components/Footer";
 import Testimonial from "./components/Testimonial";
+import Cancas from "./components/Cancas";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <div className="fixed z-30">
         <NavBar />
       </div>
+      <Cancas />
       <Home />
       <Features />
       <Portfolio />

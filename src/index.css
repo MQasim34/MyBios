@@ -16,7 +16,7 @@
 }
 
 .lgihtTheme {
-    --background-color: #fff;
+    --background-color: #ffffffd5;
     --textColor: #492b7c;
 
     --paraColor: #604391;
@@ -48,7 +48,7 @@
 }
 
 .darkTheme {
-    --background-color: #0b172a;
+    --background-color: #0b172ae0;
     --textColor: #c19ffc;
     --textColor: #ffffff;
     --lighttextColor: #ffffff;
@@ -275,7 +275,7 @@ input:focus {
 .pdbtn {
     box-shadow: 2px 2px 8px -3px var(--paraColor), inset 8px 8px 15px -8px var(--paraColor);
     border-radius: 4px;
-    padding: 5px 15px;
+    /* padding: 5px 15px; */
 }
 
 
@@ -296,4 +296,11 @@ input:focus {
     .custom-arrow {
         display: none !important;
     }
+}
+
+
+#canvas {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
 }
