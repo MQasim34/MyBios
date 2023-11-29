@@ -4,12 +4,12 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
   return (
-    <div className="bg-[#616161a1] relative">
+    <div className="bg-[#ffffff62] relative">
       <div
         id="home"
         className=" relative MainHome lg:container m-auto w-full md:pt-40 pt-24 px-3"
       >
-        <div className="flex md:flex-row flex-col-reverse md:gap-3 gap-8 border-b md:pb-[120px] pb-8">
+        <div className="flex md:flex-row flex-col-reverse md:gap-3 gap-8   md:pb-[120px] pb-8">
           <div className=" homeLeft md:w-[60%] w-full md:pt-24 ">
             <div className="flex flex-col justify-between md:gap-16 gap-6">
               <div className="flex flex-col md:gap-8 gap-3">

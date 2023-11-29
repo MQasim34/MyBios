@@ -146,7 +146,7 @@ const Cancas = () => {
     };
   }, []);
   return (
-    <canvas ref={canvasRef} id="canvas" className="absolute top-0 left-0" />
+    <canvas ref={canvasRef} id="canvas" className="absolute top-0 left-0 md:block hidden" />
   );
 };
 
